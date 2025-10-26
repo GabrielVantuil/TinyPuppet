@@ -1,0 +1,1268 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ceb10df1-cddb-45d7-bc30-a533cf38ffbd")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Buildplate_v1.0-eagle-import:LED_0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at -3.429 -4.572 90)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.905 -4.572 90)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Buildplate_v1.0:0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0603_1_0"
+				(polyline
+					(pts
+						(xy -3.429 2.159) (xy -3.048 1.27) (xy -2.54 1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 3.302) (xy -2.921 2.413) (xy -2.413 2.921)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy -3.429 -2.159)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.905) (xy -3.302 -3.302)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Buildplate_v1.0-eagle-import:PAD_50X100MIL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.016 0.8636)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Buildplate_v1.0:PAD_50X100MIL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PAD_50X100MIL_1_0"
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Buildplate_v1.0-eagle-import:PAD_POGOPIN_1.3MM"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.016 0.8636)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Buildplate_v1.0:PAD_POGOPIN_1.3MM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PAD_POGOPIN_1.3MM_1_0"
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Buildplate_v1.0-eagle-import:RESISTOR0603-RES"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 1.016 0)
+				(effects
+					(font
+						(size 1.016 0.8636)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 -0.508 0)
+				(effects
+					(font
+						(size 0.8128 0.6908)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" "Buildplate_v1.0:0603-RES"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (small) resistors."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RESISTOR0603-RES_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0.762) (xy 2.54 0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.762) (xy -2.54 0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.762) (xy 2.54 -0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.762) (xy -2.54 -0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 140.97 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07300c7d-0293-450e-8481-1d609a0ad16d")
+	)
+	(junction
+		(at 140.97 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b1bc798-fc40-4202-8598-62bdaa99c7e3")
+	)
+	(junction
+		(at 146.05 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd6b11c5-f579-4199-ac66-917a74d4e956")
+	)
+	(wire
+		(pts
+			(xy 163.83 86.36) (xy 163.83 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e91af4f-d86f-4399-9626-d5bf16097919")
+	)
+	(wire
+		(pts
+			(xy 163.83 92.71) (xy 146.05 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "821f6365-7604-4594-9d24-d257a0a6dafd")
+	)
+	(wire
+		(pts
+			(xy 140.97 102.87) (xy 140.97 105.41)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "834d3cf0-b577-483d-acc2-c34bf6dd44d3")
+	)
+	(wire
+		(pts
+			(xy 146.05 86.36) (xy 146.05 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b586269-34e6-4fe0-bfa4-3dd6f54d4cb5")
+	)
+	(wire
+		(pts
+			(xy 146.05 92.71) (xy 146.05 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ab945f5-83cf-41ce-8604-da25de2fdedc")
+	)
+	(wire
+		(pts
+			(xy 140.97 100.33) (xy 140.97 102.87)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a0f2a411-8ec4-458d-96c0-827a46671ed8")
+	)
+	(wire
+		(pts
+			(xy 146.05 100.33) (xy 140.97 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af4f0fa1-bab6-4966-b0d4-607b47f35174")
+	)
+	(wire
+		(pts
+			(xy 140.97 123.19) (xy 153.67 123.19)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b002880e-0282-4f6c-9c39-63a277f8c63e")
+	)
+	(wire
+		(pts
+			(xy 153.67 123.19) (xy 153.67 120.65)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b980e6bd-5c30-4f93-b04e-d56b2d4d490d")
+	)
+	(wire
+		(pts
+			(xy 143.51 120.65) (xy 140.97 120.65)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f0d793ac-c2b1-4c31-aefc-df080a81bb35")
+	)
+	(symbol
+		(lib_id "Buildplate_v1.0-eagle-import:PAD_50X100MIL")
+		(at 138.43 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2784b12d-f412-4657-963f-2d294f0a38f6")
+		(property "Reference" "U$5"
+			(at 133.35 123.19 0)
+			(effects
+				(font
+					(size 1.016 0.8636)
+				)
+			)
+		)
+		(property "Value" "PAD_50X100MIL"
+			(at 138.43 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Buildplate_v1.0:PAD_50X100MIL"
+			(at 138.43 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "19936382-05ab-4cac-99a2-40dc9a4efc3a")
+		)
+		(instances
+			(project ""
+				(path "/ceb10df1-cddb-45d7-bc30-a533cf38ffbd"
+					(reference "U$5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Buildplate_v1.0-eagle-import:LED_0603")
+		(at 158.75 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3cad2f0f-cafd-4147-9309-2308f6f384a6")
+		(property "Reference" "LED1"
+			(at 162.814 82.296 90)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LED_0603"
+			(at 163.322 84.455 90)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Buildplate_v1.0:0603"
+			(at 158.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "9d1496e5-c11f-4af2-9745-f67fd6e2c562")
+		)
+		(pin "A"
+			(uuid "2cb5f424-307d-4ca1-ab4d-afc3b1141095")
+		)
+		(instances
+			(project ""
+				(path "/ceb10df1-cddb-45d7-bc30-a533cf38ffbd"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Buildplate_v1.0-eagle-import:PAD_POGOPIN_1.3MM")
+		(at 138.43 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "897fca57-afd1-48fc-bb57-eb7216658901")
+		(property "Reference" "UNK2"
+			(at 133.35 102.87 0)
+			(effects
+				(font
+					(size 1.016 0.8636)
+				)
+			)
+		)
+		(property "Value" "PAD_POGOPIN_1.3MM"
+			(at 138.43 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Buildplate_v1.0:PAD_POGOPIN_1.3MM"
+			(at 138.43 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "132d4b00-f104-4389-b8a1-0803fd150dca")
+		)
+		(instances
+			(project ""
+				(path "/ceb10df1-cddb-45d7-bc30-a533cf38ffbd"
+					(reference "UNK2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Buildplate_v1.0-eagle-import:PAD_50X100MIL")
+		(at 138.43 120.65 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9277558c-e46a-4c13-acdb-938ee8d3d40b")
+		(property "Reference" "U$4"
+			(at 133.35 120.65 0)
+			(effects
+				(font
+					(size 1.016 0.8636)
+				)
+			)
+		)
+		(property "Value" "PAD_50X100MIL"
+			(at 138.43 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Buildplate_v1.0:PAD_50X100MIL"
+			(at 138.43 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "11ad9175-ac47-4883-8e29-bf8f70e45f99")
+		)
+		(instances
+			(project ""
+				(path "/ceb10df1-cddb-45d7-bc30-a533cf38ffbd"
+					(reference "U$4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Buildplate_v1.0-eagle-import:PAD_POGOPIN_1.3MM")
+		(at 138.43 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95c23166-66e0-4f2b-8c7b-edb5346ee11c")
+		(property "Reference" "UNK3"
+			(at 133.35 105.41 0)
+			(effects
+				(font
+					(size 1.016 0.8636)
+				)
+			)
+		)
+		(property "Value" "PAD_POGOPIN_1.3MM"
+			(at 138.43 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Buildplate_v1.0:PAD_POGOPIN_1.3MM"
+			(at 138.43 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "2e23c98d-fa6b-49f1-981e-eee67a83f65b")
+		)
+		(instances
+			(project ""
+				(path "/ceb10df1-cddb-45d7-bc30-a533cf38ffbd"
+					(reference "UNK3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Buildplate_v1.0-eagle-import:RESISTOR0603-RES")
+		(at 148.59 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b59a4890-4e0b-4e99-b9aa-4e1a4bbe39b5")
+		(property "Reference" "NTC0"
+			(at 148.59 119.634 0)
+			(effects
+				(font
+					(size 1.016 0.8636)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "RESISTOR0603-RES"
+			(at 148.59 121.158 0)
+			(effects
+				(font
+					(size 0.8128 0.6908)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "Buildplate_v1.0:0603-RES"
+			(at 148.59 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b29fc55-d367-4532-9daf-f4e869405562")
+		)
+		(pin "2"
+			(uuid "0fa8ed3b-dfd1-4d86-9f6f-a3badc8b1930")
+		)
+		(instances
+			(project ""
+				(path "/ceb10df1-cddb-45d7-bc30-a533cf38ffbd"
+					(reference "NTC0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Buildplate_v1.0-eagle-import:PAD_POGOPIN_1.3MM")
+		(at 138.43 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8c05c79-c615-4d08-b34a-80dbbcf3412f")
+		(property "Reference" "UNK1"
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.016 0.8636)
+				)
+			)
+		)
+		(property "Value" "PAD_POGOPIN_1.3MM"
+			(at 138.43 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Buildplate_v1.0:PAD_POGOPIN_1.3MM"
+			(at 138.43 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "ae0d9779-b7db-4f7b-8f12-6472c9937a2d")
+		)
+		(instances
+			(project ""
+				(path "/ceb10df1-cddb-45d7-bc30-a533cf38ffbd"
+					(reference "UNK1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Buildplate_v1.0-eagle-import:RESISTOR0603-RES")
+		(at 151.13 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5cb851e-8d46-4534-bd29-e3274538d9a8")
+		(property "Reference" "R_LED1"
+			(at 151.13 85.344 0)
+			(effects
+				(font
+					(size 1.016 0.8636)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "1k"
+			(at 151.13 88.646 0)
+			(effects
+				(font
+					(size 0.8128 0.6908)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "Buildplate_v1.0:0603-RES"
+			(at 151.13 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ed0701b-3893-4804-a8a3-7826afe7727a")
+		)
+		(pin "1"
+			(uuid "782d938c-1251-4232-a96e-13d5301bba66")
+		)
+		(instances
+			(project ""
+				(path "/ceb10df1-cddb-45d7-bc30-a533cf38ffbd"
+					(reference "R_LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
